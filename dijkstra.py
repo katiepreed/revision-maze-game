@@ -1,6 +1,5 @@
 # source is a pair of numbers representing position of node
 def dijkstra(graph, source, destination):
-    # I'm using a dictionary where
     # a set
     q = set()
     dist = {}
@@ -43,4 +42,3 @@ def dijkstra(graph, source, destination):
 
 # dist is a dictionary where the key is the node coordinates and the value is the number of steps from the source.
 # prev is a dictionary where the key is the node coordinates and the value is the previous node in the path
-# work with the previous cells
